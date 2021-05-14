@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Send Email";
+}
+
+<form method="post">
+    
+    <table>
+        <tr>
+            <td>Emails получателя через пробел:</td>
+            <td><input type="text" name="email" /> </td>
+        </tr>
+        <tr>
+            <td>От кого email:</td>
+            <td><input type="text" name="fromwho" /> </td>
+        </tr>
+        <tr>
+            <td>Тема письма:</td>
+            <td><input type="text" name="topic" /> </td>
+        </tr>
+        <tr>
+            <td>Введите сообщение:</td>
+            <td><input type="text" name="letter" /> </td>
+        </tr>
+
+        <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+    </table>
+</form>
+
+
