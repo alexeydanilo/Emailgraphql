@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  emailgraphql:
+    image: ${DOCKER_REGISTRY-}emailgraphql
+    build:
+      context: .
+      dockerfile: Emailgraphql\Dockerfile
