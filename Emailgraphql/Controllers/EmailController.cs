@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Emailgraphql.SendingLetter;
-
+using Emailgraphql.GraphQL;
 
 namespace Emailgraphql.Controllers
 {
@@ -52,7 +52,13 @@ namespace Emailgraphql.Controllers
                 db.EmailsStatus.Add(status);
                 db.SaveChanges();
             }
-            return RedirectToAction("Index");
+            return RedirectToAction("Send");
+        }
+       
+        public IActionResult Status()
+        {
+            
+            return View();
         }
 
 
