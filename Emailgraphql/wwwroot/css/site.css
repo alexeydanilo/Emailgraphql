@@ -74,19 +74,26 @@ input{
    
 }
 #sendform{
-    margin-top: 20%;
-
+    margin-top: 15%;
+    margin-left: 7%;
+    position:absolute;
     font-size: 20px;
+    
    
 }
+
 #SendTable td, th {
     padding-top: 10px;
-    
 }
 #Status {
-    padding-left:15%;
-    
-
+    margin-top: 0%;
+    margin-left: 15%;
+    position: absolute;
+    padding-left: 2%;
+    position: fixed;
+    height: 280px;
+    width: 500px;
+    overflow-x: auto;
 }
 #StatusTable {
     border: 1px black solid;
@@ -95,11 +102,11 @@ input{
 
 #StatusTable td, th {
     border: 1px black solid;
-    padding: 15px;
+    padding: 10px;
 }
 #sendbutton{
     width: 120px;
     position: absolute;
-    margin-left: 20%;
+    margin-left: 40%;
     margin-top: 2%;
 }
