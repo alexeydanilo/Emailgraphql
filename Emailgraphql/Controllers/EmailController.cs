@@ -55,11 +55,7 @@ namespace Emailgraphql.Controllers
             return RedirectToAction("Send");
         }
        
-        public IActionResult Status()
-        {
-            
-            return View();
-        }
+        
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
