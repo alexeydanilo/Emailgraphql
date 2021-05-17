@@ -9,7 +9,7 @@ namespace Emailgraphql.Models
         public EmailContext(DbContextOptions<EmailContext> options)
             : base(options)
         {
-          //  Database.EnsureDeleted();
+            Database.EnsureDeleted();
             Database.EnsureCreated();
         }
     }

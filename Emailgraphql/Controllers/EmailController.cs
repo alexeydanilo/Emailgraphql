@@ -18,7 +18,7 @@ namespace Emailgraphql.Controllers
 
         public IActionResult Send()
         {
-
+           
 
             return View();
         }
@@ -27,7 +27,7 @@ namespace Emailgraphql.Controllers
         public IActionResult Send(string email, string topic, string fromwho, string letter)  // string topic // string message
         {
             SendEmail send = new SendEmail();
-            //  EmailStatus status = new EmailStatus();
+
 
             if (email.Contains(" "))
             {

@@ -37,11 +37,11 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - Emailgraphql - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - Emailgraphql - <a asp-area="" asp-controller="Email" asp-action="Send">Send Email</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="https://unpkg.com/apollo-client-browser@1.9.0"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
