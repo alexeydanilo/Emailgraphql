@@ -11,6 +11,7 @@
 
         for (var i = 0; i < result.data.emails.length; i++) {
             $("#StatusTable").append('<tr>' + '<td>' + result.data.emails[i].sentTo + '</td>' + '<td>' + result.data.emails[i].status + '</td>' + '</tr')
+            $("#Status").attr('style', 'display:block;');
         }
         
            

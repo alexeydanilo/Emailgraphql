@@ -94,6 +94,7 @@ input{
     height: 280px;
     width: 500px;
     overflow-x: auto;
+    display: none;
 }
 #StatusTable {
     border: 1px black solid;
