@@ -13,7 +13,7 @@ namespace Emailgraphql.SendingLetter
                 message.From.Add(new MailboxAddress(fromwho, "alexeydanilo@gmail.com"));
                 message.To.Add(new MailboxAddress("Alexey", email));
                 message.Subject = topic;
-                message.Body = new BodyBuilder() { TextBody = letter }.ToMessageBody();
+                message.Body = new BodyBuilder() { HtmlBody = letter }.ToMessageBody();
 
                 using (MailKit.Net.Smtp.SmtpClient client = new MailKit.Net.Smtp.SmtpClient())
                 {

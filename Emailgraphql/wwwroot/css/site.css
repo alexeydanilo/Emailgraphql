@@ -73,30 +73,32 @@ input{
     width: 500px;
    
 }
-#sendform{
-    margin-top: 15%;
-    margin-left: 7%;
-    position:absolute;
-    font-size: 20px;
+#sendform {
     
-   
+    margin-top: 10%;
+    margin-left: 7%;
+    position: absolute;
+    font-size: 20px;
 }
 
 #SendTable td, th {
     padding-top: 10px;
 }
 #Status {
+    
     margin-top: 0%;
-    margin-left: 15%;
+    margin-left: 7%;
     position: absolute;
-    padding-left: 2%;
+    padding-left: 0%;
     position: fixed;
-    height: 280px;
-    width: 500px;
+    height: 180px;
+    width: 800px;
     overflow-x: auto;
     display: none;
 }
 #StatusTable {
+    width: 795px;
+ 
     border: 1px black solid;
     font-size: 15px;
 }
@@ -111,8 +113,13 @@ input{
     margin-left: 40%;
     margin-top: 2%;
 }
-textarea{
+#emails{
     width: 500px;
     height: 100px;
+    resize: none;
+}
+#message {
+    width: 500px;
+    height: 250px;
     resize: none;
 }
